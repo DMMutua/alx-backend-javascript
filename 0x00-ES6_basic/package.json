@@ -1,0 +1,13 @@
+{
+  "name": "0x00-es6_basic",
+  "version": "1.0.0",
+  "description": "First Project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DPractise Project for JS Backend dev",
+  "main": "1-main.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node 1-main.js"
+  },
+  "author": "DMMutua",
+  "license": "ISC"
+}
