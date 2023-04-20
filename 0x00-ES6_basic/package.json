@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "First Project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DPractise Project for JS Backend dev",
   "main": "1-main.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node 1-main.js",
-    "dev":"node 2-main.js",
-    "dev": "node 3-main.js",
-    "dev": "node 4-main.js",
-    "dev":"node 5-main.js"
+    "dev": "node 6-main.js"
   },
   "author": "DMMutua",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
 }
