@@ -11,12 +11,17 @@ interface Teacher {
   [key: string]: any;
 }
 
-class TeacherImpl implements Teacher {
+interface Directors extends Teacher {
+  numberOfReports: number;
+}
+
+class DirectorImpl implements Directors {
   constructor(
     public firstName: string,
     public lastName: string,
     public readonly fullTimeEmployee: boolean,
     public readonly location: string,
+    public numberOfReports: number,
     public yearsOfExperience?: number,
     ...args: any[]
   ) {
