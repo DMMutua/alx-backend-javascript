@@ -9,7 +9,8 @@ const countStudents = require('./3-read_file_async');
 
 const hostname = '127.0.0.1';
 const port = 1245;
-const dbPath = 'database.csv';
+// Get db filename from command line arguments.
+const dbPath = process.argv[2];
 
 
 const app = http.createServer((req, res) => {
